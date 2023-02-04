@@ -1,0 +1,13 @@
+This is a Language repository for all Programming Languages used by Mensalytics 
+The main languages used by mensalytics are Java, Python & Golang. 
+For Backend Development will be Golang & Java 
+For Data Engineering will be Python & Java 
+For Machine Learning will be Python, Pytorch & Tensorflow 
+For Automated tasks will be Python 
+For Mobile Development will be Flutter. 
+For Cloud Platform will be Google Cloud Platform 
+
+
+
+Thank You 
+Mensalytics 
