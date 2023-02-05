@@ -1,0 +1,5 @@
+This section will introduce the reader to scenarios and problems solved with 
+the languages of choice. 
+
+THE FIRST WILL BE BUILDING AN ATM APPLICATION 
+1. JAVA 2. PYTHON 3. GOLANG 

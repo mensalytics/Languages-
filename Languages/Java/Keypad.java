@@ -1,11 +1,11 @@
 package Languages.Java;
 import java.util.Scanner; 
 
-public class Kaypad {
+public class Keypad {
     private Scanner input; // object created from the scanner class 
 
     // constructor 
-    public Kaypad() {
+    public Keypad() {
         input = new Scanner(System.in); 
     }
 

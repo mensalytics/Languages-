@@ -1,0 +1,81 @@
+Java is very popular for using the Object Oriented Style of programming. 
+
+1. Our first case study will be an ATM app that will be run in the terminal 
+a. view account balance 
+b. withdraw cash 
+c. deposit balance 
+
+The main properties of an ATM is 
+a. Screen b. Deposit Slot c. Cash Dispenser d. Keypad 
+
+Modelling operations 
+1. ATM => userAuthenticated: Boolean = false 
+2. Account 
+-------properties----------
+accountNumber: Integer 
+pin: Integer 
+availableBalance: Double 
+totalBalance: Double 
+-----actions-------
+validatePin(): Boolean
+getAvailableBalance(): Boolean 
+getTotalBalance(): Double
+credit() 
+debit() 
+
+3. BalanceInquiry 
+--------properties-------
+accountNumber: Integer 
+-------actions----------
+execute() 
+
+4. Withdrawal 
+-----properties-------
+accountNumber: Integer 
+amount: Integer 
+-----actions---------
+execute() 
+
+5. Deposit 
+----- properties------
+accountNumber: Integer 
+amount: Double 
+------actions------
+execute()
+
+6. BankDatabase 
+------actions---------
+authenticateUser(): Boolean 
+getAvailableBalance(): Double 
+getTotalBalance(): Double 
+credit() 
+debit() 
+
+7. Screen 
+-----actions--------
+displayMessage() 
+
+8. Keypad 
+-----actions--------
+getInput(): Integer 
+
+9. CashDispenser 
+------properties------
+count: Integer = 500 
+-----actions----------
+dispenseCash() 
+isSufficientCashAvailable(): Boolean 
+
+10. DepositSlot 
+-----actions----------
+isEnvelopeRecived(): Boolean 
+
+
+ATM CLASS has one to one relationship with BankDatabase 
+one ATM object authenticates users against one BankDatabase object 
+Bank database contains information about many accounts 
+one bankdatabase object participates in a composition relationship 
+with zero or more account objects 
+Class Bankdatabase has one to many relationship with class Account 
+the Bankdatabase can contain many accounts 
+Class account has a many to one relationship with class Bankdatabase 
